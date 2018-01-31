@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let mySelfDrivingCar = SelfDrivingCar()
 
+//mySelfDrivingCar.destination = "1 Hacker Way"
+mySelfDrivingCar.drive()
